@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 9.40364996235886,
+    "zoomFactor": 2.2592535769555604,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -68,11 +68,59 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "Spiderling",
-      "persistentUuid": "7983369b-4307-442c-88cb-68c3b3a4b07d",
+      "name": "SpiderLing",
+      "persistentUuid": "c6120a05-ba1b-45f4-babb-48552d828f14",
       "width": 0,
-      "x": 676,
-      "y": 536,
+      "x": 489,
+      "y": 493,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SpiderLing",
+      "persistentUuid": "a45e1548-a5d6-49aa-a49a-62b85a3a8f49",
+      "width": 0,
+      "x": 501,
+      "y": 479,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SpiderLing",
+      "persistentUuid": "6a32429b-dc88-452a-bc26-8b7aafd25dc8",
+      "width": 0,
+      "x": 491,
+      "y": 479,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "SpiderLing",
+      "persistentUuid": "3118ec98-2e2e-425d-8915-9795cf674679",
+      "width": 0,
+      "x": 499,
+      "y": 493,
       "zOrder": 8,
       "numberProperties": [],
       "stringProperties": [],
@@ -85,26 +133,42 @@
       "keepRatio": true,
       "layer": "",
       "name": "Spiderling",
-      "persistentUuid": "d1c2dc2b-97df-4653-8a54-d028bddcba5e",
+      "persistentUuid": "1b48a2b1-113e-4d6c-b60b-28a5087ae0ee",
       "width": 0,
-      "x": 676,
-      "y": 525,
+      "x": 595,
+      "y": 521,
       "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
+      "angle": 132,
       "customSize": false,
       "height": 0,
       "keepRatio": true,
       "layer": "",
       "name": "Spiderling",
-      "persistentUuid": "f25feb29-6bac-4190-bdc4-b276b8f5e729",
+      "persistentUuid": "de62819e-0945-418b-884a-1bd85f0ee068",
       "width": 0,
-      "x": 686,
-      "y": 527,
+      "x": 604,
+      "y": 525,
+      "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 185,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spiderling",
+      "persistentUuid": "3d80ca95-a4c6-4f97-84d5-27f01242d713",
+      "width": 0,
+      "x": 606,
+      "y": 532,
       "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
@@ -117,222 +181,33 @@
       "keepRatio": true,
       "layer": "",
       "name": "Spiderling",
-      "persistentUuid": "22efe1db-7c73-4b73-b202-9ecd00f9dd75",
+      "persistentUuid": "2ea65c51-dea9-4e89-85f8-26b1eaed98eb",
       "width": 0,
-      "x": 685,
-      "y": 536,
-      "zOrder": 11,
+      "x": 599,
+      "y": 530,
+      "zOrder": 9,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 256,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Spiderling",
+      "persistentUuid": "5580278f-2806-47b4-b190-e9bde34dc1c9",
+      "width": 0,
+      "x": 593,
+      "y": 525,
+      "zOrder": 10,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     }
   ],
   "objects": [
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "Spiderling",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "Squim",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ChickLing2",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ChickLing3",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ChickLing4",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ChickLing5",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "ChickLing6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 0,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 1
-                      },
-                      {
-                        "x": 9,
-                        "y": 8
-                      },
-                      {
-                        "x": 0,
-                        "y": 8
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
     {
       "assetStoreId": "",
       "name": "NewTileMap",
@@ -357,24 +232,281 @@
       "width": 32,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Spiderling",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "ChickLing",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": true,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ChickLing",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 2,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ChickLing7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 2,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ChickLing8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 2,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ChickLing9",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 2,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "ChickLing10",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 1
+                      },
+                      {
+                        "x": 9,
+                        "y": 9
+                      },
+                      {
+                        "x": 2,
+                        "y": 9
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "Spiderling"
-      },
-      {
         "objectName": "NewTileMap"
       },
       {
         "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "Spiderling"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "DepartScene"
+          },
+          "parameters": [
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "4",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Spiderling",
+            "Animation",
+            "=",
+            "\"Squim\""
+          ]
+        }
+      ]
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -437,6 +569,10 @@
     {
       "name": "Opacity",
       "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
     },
     {
       "name": "Resizable",
