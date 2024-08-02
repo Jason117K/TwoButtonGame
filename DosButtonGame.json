@@ -167,6 +167,131 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/2dc6d026c1a7c34ec2b7e283f7fb1c19106e4f693332d587ae3649cf24d3c168_Medium Red Dice_Question.png",
           "name": "Medium Red Dice_Question.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PlayerWalkAnim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PlayerWalkAnim.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Bronze Sword 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "428ddafcaaa05a03764d2237d01a73509b37378e79142c9fd8d62d3f28bfd8da_Bronze Sword 6.png",
+        "smoothed": false,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Weapons/Bronze Weapon/Sword/428ddafcaaa05a03764d2237d01a73509b37378e79142c9fd8d62d3f28bfd8da_Bronze Sword 6.png",
+          "name": "gdevelop-asset-store"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PlayerWalkAnim2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PlayerWalkAnim2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../Aseprite/2ButtonGame/PlayerWalkAnim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\Aseprite\\2ButtonGame\\PlayerWalkAnim.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalk.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalk",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalk2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalk2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalk3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalk3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalk4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalk4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalk5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalk5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalk6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalk6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalk7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalk7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalk8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalk8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Floor_Clean.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
+          "name": "gdevelop-asset-store"
+        }
       }
     ],
     "resourceFolders": []

@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.4633111824513976,
+    "zoomFactor": 1.4790395861757393,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -30,12 +30,29 @@
       "height": 0,
       "keepRatio": true,
       "layer": "",
-      "name": "MediumRedDice",
-      "persistentUuid": "3106e516-1b8d-410b-954f-559c97b39d49",
+      "name": "Player",
+      "persistentUuid": "e629a027-4219-4ea1-b988-4d48626c971e",
       "width": 0,
-      "x": 803,
-      "y": 533,
-      "zOrder": 1,
+      "x": 719,
+      "y": 647,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewTiledSprite",
+      "persistentUuid": "1a97ba79-53bc-4cbe-8037-7403ea8b2ace",
+      "width": 487,
+      "x": 536,
+      "y": 711,
+      "zOrder": 3,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -45,35 +62,46 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "NewSprite",
+      "name": "Player",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
       "effects": [],
-      "behaviors": [],
-      "animations": []
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "d07c3f88fd419d4347e156aede5186adc7ae8c16efd75cf2d7a0c1ae158a19db",
-      "name": "MediumRedDice",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "PlatformerObject",
+          "type": "PlatformBehavior::PlatformerObjectBehavior",
+          "acceleration": 1500,
+          "canGoDownFromJumpthru": true,
+          "canGrabPlatforms": false,
+          "canGrabWithoutMoving": true,
+          "deceleration": 1500,
+          "gravity": 1000,
+          "ignoreDefaultControls": false,
+          "jumpSpeed": 600,
+          "jumpSustainTime": 0.2,
+          "ladderClimbingSpeed": 150,
+          "maxFallingSpeed": 700,
+          "maxSpeed": 250,
+          "slopeMaxAngle": 60,
+          "useLegacyTrajectory": false,
+          "xGrabTolerance": 10,
+          "yGrabOffset": 0
+        }
+      ],
       "animations": [
         {
-          "name": "Empty",
+          "name": "PlayerWalk",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": true,
-              "timeBetweenFrames": 0.025,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Medium Red Dice_Empty.png",
+                  "image": "PlayerWalk",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -89,39 +117,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 8,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 8,
+                        "y": 18
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 18
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "1",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
+                },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Medium Red Dice_1_1.png",
+                  "image": "PlayerWalk2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -137,39 +153,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 8,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 8,
+                        "y": 18
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 18
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "2",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
+                },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Medium Red Dice_2_1.png",
+                  "image": "PlayerWalk3",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -185,39 +189,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 8,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 8,
+                        "y": 18
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 18
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "3",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
+                },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Medium Red Dice_3_1.png",
+                  "image": "PlayerWalk4",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -233,39 +225,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 8,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 8,
+                        "y": 18
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 18
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "4",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
+                },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Medium Red Dice_4_1.png",
+                  "image": "PlayerWalk5",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -281,39 +261,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 8,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 8,
+                        "y": 18
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 18
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "5",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
+                },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Medium Red Dice_5_1.png",
+                  "image": "PlayerWalk6",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -329,39 +297,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 8,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 8,
+                        "y": 18
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 18
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "6",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
+                },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Medium Red Dice_6_1.png",
+                  "image": "PlayerWalk7",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -377,39 +333,27 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 8,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 8,
+                        "y": 18
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 18
                       }
                     ]
                   ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Question",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "timeBetweenFrames": 0.025,
-              "sprites": [
+                },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Medium Red Dice_Question.png",
+                  "image": "PlayerWalk8",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -425,20 +369,20 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 0,
-                        "y": 0
+                        "x": 1,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 0
+                        "x": 8,
+                        "y": 1
                       },
                       {
-                        "x": 16,
-                        "y": 16
+                        "x": 8,
+                        "y": 18
                       },
                       {
-                        "x": 0,
-                        "y": 16
+                        "x": 1,
+                        "y": 18
                       }
                     ]
                   ]
@@ -448,16 +392,35 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "NewTiledSprite",
+      "texture": "fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Platform",
+          "type": "PlatformBehavior::PlatformBehavior",
+          "canBeGrabbed": true,
+          "platformType": "NormalPlatform",
+          "yGrabOffset": 0
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
     "folderName": "__ROOT",
     "children": [
       {
-        "objectName": "NewSprite"
+        "objectName": "Player"
       },
       {
-        "objectName": "MediumRedDice"
+        "objectName": "NewTiledSprite"
       }
     ]
   },
@@ -481,6 +444,140 @@
           },
           "parameters": [
             ""
+          ]
+        },
+        {
+          "type": {
+            "value": "CentreCamera"
+          },
+          "parameters": [
+            "",
+            "Player",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "ZoomCamera"
+          },
+          "parameters": [
+            "",
+            "4",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": [
+        {
+          "type": {
+            "value": "SetCameraCenterX"
+          },
+          "parameters": [
+            "",
+            "=",
+            "Player.CenterX()",
+            "",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    },
+    {
+      "type": "BuiltinCommonInstructions::Comment",
+      "color": {
+        "b": 109,
+        "g": 230,
+        "r": 255,
+        "textB": 0,
+        "textG": 0,
+        "textR": 0
+      },
+      "comment": "Player\n"
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"PlayerWalk\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Player",
+            "Flippable",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "PlatformBehavior::PlatformerObjectBehavior::IsUsingControl"
+          },
+          "parameters": [
+            "Player",
+            "PlatformerObject",
+            "\"Right\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "AnimatableCapability::AnimatableBehavior::SetName"
+          },
+          "parameters": [
+            "Player",
+            "Animation",
+            "=",
+            "\"PlayerWalk\""
+          ]
+        },
+        {
+          "type": {
+            "value": "FlippableCapability::FlippableBehavior::FlipX"
+          },
+          "parameters": [
+            "Player",
+            "Flippable",
+            "yes"
           ]
         }
       ]
@@ -532,5 +629,38 @@
       ]
     }
   ],
-  "behaviorsSharedData": []
+  "behaviorsSharedData": [
+    {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
+      "name": "Effect",
+      "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
+    },
+    {
+      "name": "Opacity",
+      "type": "OpacityCapability::OpacityBehavior"
+    },
+    {
+      "name": "Platform",
+      "type": "PlatformBehavior::PlatformBehavior"
+    },
+    {
+      "name": "PlatformerObject",
+      "type": "PlatformBehavior::PlatformerObjectBehavior"
+    },
+    {
+      "name": "Resizable",
+      "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
+    }
+  ]
 }
