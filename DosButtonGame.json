@@ -320,6 +320,24 @@
         "name": "ChickLing6",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pressurePlate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pressurePlate.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pressurePlate2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pressurePlate2.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
