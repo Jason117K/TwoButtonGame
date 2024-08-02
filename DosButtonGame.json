@@ -63,7 +63,112 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Red Dice_1_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Red Dice_1_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/8bf63539e902e45a7cbe578f708f05ca58cf2661e023657f045be7058625ecc5_Medium Red Dice_1_1.png",
+          "name": "Medium Red Dice_1_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Red Dice_2_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Red Dice_2_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/d364a63ae4bec5c2d3428c421e523ecf4a8939a0972017d718995d15f354e23b_Medium Red Dice_2_1.png",
+          "name": "Medium Red Dice_2_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Red Dice_3_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Red Dice_3_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/e475cfb755e06083bf3510196c2d8f8a62329f6e5a5b97db3ff1083bd5622760_Medium Red Dice_3_1.png",
+          "name": "Medium Red Dice_3_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Red Dice_4_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Red Dice_4_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/d40e084eaf00b42737baf2c6f606306afb8dd73c1a9a5d1b3d89f16d350308b1_Medium Red Dice_4_1.png",
+          "name": "Medium Red Dice_4_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Red Dice_5_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Red Dice_5_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/ad366f751437344411f2c52750dd4387dd0b8c247d578e64040a518868566dea_Medium Red Dice_5_1.png",
+          "name": "Medium Red Dice_5_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Red Dice_6_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Red Dice_6_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/7d372946eab8d609e79b86da1ad39d22a4e3c46bf322cdbf22fb7eeeddcd3753_Medium Red Dice_6_1.png",
+          "name": "Medium Red Dice_6_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Red Dice_Empty.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Red Dice_Empty.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/87df44b2b7d63a63bd8dab36d324093ac61275352b45de69e2e7b8f3a8f47aca_Medium Red Dice_Empty.png",
+          "name": "Medium Red Dice_Empty.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Medium Red Dice_Question.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Medium Red Dice_Question.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Playing Cards/Dices/2dc6d026c1a7c34ec2b7e283f7fb1c19106e4f693332d587ae3649cf24d3c168_Medium Red Dice_Question.png",
+          "name": "Medium Red Dice_Question.png"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
