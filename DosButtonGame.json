@@ -170,15 +170,23 @@
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "PlayerWalkAnim.png",
         "kind": "image",
         "metadata": "",
         "name": "PlayerWalkAnim.png",
+=======
+        "file": "cavesofgallet_tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "cavesofgallet_tiles.png",
+>>>>>>> Stashed changes
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "assets/Bronze Sword 6.png",
         "kind": "image",
         "metadata": "",
@@ -196,11 +204,18 @@
         "kind": "image",
         "metadata": "",
         "name": "PlayerWalkAnim2.png",
+=======
+        "file": "../../Downloads/cavesofgallet/cavesofgallet_tiles.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "../../Downloads/cavesofgallet/cavesofgallet_tiles.png",
+>>>>>>> Stashed changes
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
+<<<<<<< Updated upstream
         "file": "../Aseprite/2ButtonGame/PlayerWalkAnim.png",
         "kind": "image",
         "metadata": "",
@@ -292,6 +307,14 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
           "name": "gdevelop-asset-store"
         }
+=======
+        "file": "assets/NewSprite2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
+        "smoothed": false,
+        "userAdded": true
+>>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
