@@ -170,56 +170,28 @@
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
-        "file": "PlayerWalkAnim.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "PlayerWalkAnim.png",
-=======
         "file": "cavesofgallet_tiles.png",
         "kind": "image",
         "metadata": "",
         "name": "cavesofgallet_tiles.png",
->>>>>>> Stashed changes
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
-        "file": "assets/Bronze Sword 6.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "428ddafcaaa05a03764d2237d01a73509b37378e79142c9fd8d62d3f28bfd8da_Bronze Sword 6.png",
-        "smoothed": false,
-        "userAdded": true,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 RPG Weapons/Bronze Weapon/Sword/428ddafcaaa05a03764d2237d01a73509b37378e79142c9fd8d62d3f28bfd8da_Bronze Sword 6.png",
-          "name": "gdevelop-asset-store"
-        }
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "PlayerWalkAnim2.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "PlayerWalkAnim2.png",
-=======
         "file": "../../Downloads/cavesofgallet/cavesofgallet_tiles.png",
         "kind": "image",
         "metadata": "",
         "name": "../../Downloads/cavesofgallet/cavesofgallet_tiles.png",
->>>>>>> Stashed changes
         "smoothed": false,
         "userAdded": true
       },
       {
         "alwaysLoaded": false,
-<<<<<<< Updated upstream
-        "file": "../Aseprite/2ButtonGame/PlayerWalkAnim.png",
+        "file": "assets/NewSprite2.png",
         "kind": "image",
-        "metadata": "",
-        "name": "..\\Aseprite\\2ButtonGame\\PlayerWalkAnim.png",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "NewSprite2",
         "smoothed": false,
         "userAdded": true
       },
@@ -227,8 +199,8 @@
         "alwaysLoaded": false,
         "file": "assets/PlayerWalk.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PlayerWalk",
+        "metadata": "",
+        "name": "assets/PlayerWalk.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -236,8 +208,8 @@
         "alwaysLoaded": false,
         "file": "assets/PlayerWalk2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PlayerWalk2",
+        "metadata": "",
+        "name": "assets/PlayerWalk2.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -245,8 +217,8 @@
         "alwaysLoaded": false,
         "file": "assets/PlayerWalk3.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PlayerWalk3",
+        "metadata": "",
+        "name": "assets/PlayerWalk3.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -254,8 +226,8 @@
         "alwaysLoaded": false,
         "file": "assets/PlayerWalk4.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PlayerWalk4",
+        "metadata": "",
+        "name": "assets/PlayerWalk4.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -263,8 +235,8 @@
         "alwaysLoaded": false,
         "file": "assets/PlayerWalk5.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PlayerWalk5",
+        "metadata": "",
+        "name": "assets/PlayerWalk5.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -272,8 +244,8 @@
         "alwaysLoaded": false,
         "file": "assets/PlayerWalk6.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PlayerWalk6",
+        "metadata": "",
+        "name": "assets/PlayerWalk6.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -281,8 +253,8 @@
         "alwaysLoaded": false,
         "file": "assets/PlayerWalk7.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PlayerWalk7",
+        "metadata": "",
+        "name": "assets/PlayerWalk7.png",
         "smoothed": false,
         "userAdded": true
       },
@@ -290,31 +262,10 @@
         "alwaysLoaded": false,
         "file": "assets/PlayerWalk8.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "PlayerWalk8",
-        "smoothed": false,
-        "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/Floor_Clean.png",
-        "kind": "image",
         "metadata": "",
-        "name": "fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/16x16 Dungeon Tileset/Floor/fdbaad501362790bd57187ff43d62c521f0a58b98697dcb2d058ed359b1dffa8_Floor_Clean.png",
-          "name": "gdevelop-asset-store"
-        }
-=======
-        "file": "assets/NewSprite2.png",
-        "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
-        "name": "NewSprite2",
+        "name": "assets/PlayerWalk8.png",
         "smoothed": false,
         "userAdded": true
->>>>>>> Stashed changes
       }
     ],
     "resourceFolders": []
