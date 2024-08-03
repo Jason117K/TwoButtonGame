@@ -325,7 +325,7 @@
         "alwaysLoaded": false,
         "file": "pressurePlate.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"pressurePlate.png\",\"extension\":\".png\"}",
         "name": "pressurePlate.png",
         "smoothed": false,
         "userAdded": true
@@ -336,6 +336,195 @@
         "kind": "image",
         "metadata": "",
         "name": "pressurePlate2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PlayerWalkAnim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PlayerWalkAnim.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalkAnim.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalkAnim",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalkAnim2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalkAnim2",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalkAnim3.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalkAnim3",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalkAnim4.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalkAnim4",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalkAnim5.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalkAnim5",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalkAnim6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalkAnim6",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalkAnim7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalkAnim7",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/PlayerWalkAnim8.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "PlayerWalkAnim8",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ChickLing.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ChickLing.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing7",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing8",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing9",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing11.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing10",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing11",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing12.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing12",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing13.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing13",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing14.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing14",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/ChickLing15.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "ChickLing15",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "LargePressurePlate.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "LargePressurePlate.png",
         "smoothed": false,
         "userAdded": true
       }
@@ -355,7 +544,7 @@
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/layouts/level2"
+      "referenceTo": "/layouts/spiderlevel"
     }
   ],
   "externalEvents": [],
