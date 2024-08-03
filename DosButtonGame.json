@@ -536,6 +536,15 @@
         "name": "NewPanelSprite",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/NewSprite3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/NewSprite3.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
