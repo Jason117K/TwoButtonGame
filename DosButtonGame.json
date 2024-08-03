@@ -545,6 +545,24 @@
         "name": "assets/NewSprite3.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LargePressurePlate.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LargePressurePlate",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/LargePressurePlate2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "LargePressurePlate2",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
