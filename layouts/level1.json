@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 1.8046714318874355,
+    "zoomFactor": 1.097367969562976,
     "windowMask": false
   },
   "objectsGroups": [],
@@ -1885,7 +1885,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Button Animation",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
