@@ -189,6 +189,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1172,
+      "keepRatio": true,
+      "layer": "",
+      "name": "BGSprite",
+      "persistentUuid": "d4be11ab-a97d-4b70-b4ac-56bc77d8ff12",
+      "width": 2084,
+      "x": -77,
+      "y": -48,
+      "zOrder": 0,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -443,11 +460,12 @@
       "behaviors": [],
       "animations": [
         {
-          "name": "",
+          "name": "assets/Medieval Button Beige_Hovered",
           "useMultipleDirections": false,
           "directions": [
             {
               "looping": false,
+              "metadata": "{\"pskl\":{}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
