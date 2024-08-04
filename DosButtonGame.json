@@ -1937,6 +1937,87 @@
         "name": "NewSprite3",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TurningWheel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TurningWheel.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Platform1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Platform2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Platform3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Platform4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Platform4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Aseprite/2ButtonGame/PlayerWalkAnim.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Aseprite\\2ButtonGame\\PlayerWalkAnim.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jellyfish-Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jellyfish-Red.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Jellyfish-Red2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Jellyfish-Red2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "../../../Aseprite/2ButtonGame/Jellyfish-Red.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "..\\..\\..\\Aseprite\\2ButtonGame\\Jellyfish-Red.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -2395,10 +2476,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/endscreen"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level4"
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/ellipsemovement"
+    },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
