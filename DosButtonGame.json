@@ -541,7 +541,7 @@
         "alwaysLoaded": false,
         "file": "assets/NewSprite3.png",
         "kind": "image",
-        "metadata": "",
+        "metadata": "{\"localFilePath\":\"assets/NewSprite3.png\",\"extension\":\".png\"}",
         "name": "assets/NewSprite3.png",
         "smoothed": false,
         "userAdded": true
